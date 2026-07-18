@@ -19,20 +19,27 @@
   "projects": {
     "title": "Proyectos",
     "description": "Una colección de mi trabajo.",
+    "backLabel": "← Volver a Proyectos",
     "items": [
       {
+        "slug": "imagenes-medicas",
         "title": "Aprendizaje Profundo para Imágenes Médicas",
         "description": "Proyecto de investigación aplicando redes convolucionales para diagnosticar patologías desde escaneos médicos. Logró un 94 % de precisión en clasificación de radiografías de tórax.",
+        "longDescription": "Este proyecto desarrolló un pipeline de aprendizaje profundo para el diagnóstico automatizado de patologías torácicas desde radiografías. Usando una arquitectura CNN personalizada basada en DenseNet, el modelo se entrenó con un conjunto de datos de más de 100 000 radiografías etiquetadas. El sistema alcanzó un 94 % de precisión en 14 clases de patologías, con especial rendimiento en la detección de neumonía y nódulos pulmonares. Se incorporó un módulo de visualización Grad-CAM para resaltar las regiones de interés, haciendo que las decisiones del modelo sean interpretables para los radiólogos.",
         "tags": ["Python", "TensorFlow", "Imágenes Médicas"]
       },
       {
+        "slug": "simulador-cuantico",
         "title": "Simulador de Computación Cuántica",
         "description": "Simulador liviano de circuitos cuánticos construido desde cero. Soporta hasta 16 qubits e implementa los algoritmos de Grover y Shor.",
+        "longDescription": "Un simulador de circuitos cuánticos escrito desde cero en Rust, diseñado para fines educativos y experimentación a pequeña escala. El simulador usa representación de vector de estado y soporta todas las compuertas estándar de uno y dos qubits. Implementa el algoritmo de búsqueda de Grover para bases de datos no estructuradas y el algoritmo de factorización de Shor para enteros de hasta 15. Los benchmarks muestran que puede simular hasta 16 qubits en menos de 2 GB de memoria, haciéndolo accesible para estudiantes de computación cuántica.",
         "tags": ["Rust", "Cuántico", "Simulación"]
       },
       {
+        "slug": "herramienta-nlp",
         "title": "Herramienta de NLP para Textos Científicos",
         "description": "Herramienta de código abierto para extraer entidades y relaciones de artículos científicos usando modelos basados en transformers.",
+        "longDescription": "Una herramienta de código abierto en Python diseñada para extraer información estructurada de literatura científica. Construida sobre HuggingFace Transformers, proporciona pipelines pre-entrenados para reconocimiento de entidades nombradas (NER), extracción de relaciones y resumen adaptados a dominios científicos. La herramienta incluye una CLI, una API en Python y un demo web con Gradio. Se ha utilizado para procesar más de 5000 artículos de arXiv, logrando resultados de vanguardia en el benchmark SciERC para extracción de entidades científicas.",
         "tags": ["Python", "NLP", "Transformers"]
       }
     ]

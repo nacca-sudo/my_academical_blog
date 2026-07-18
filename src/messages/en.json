@@ -19,20 +19,27 @@
   "projects": {
     "title": "Projects",
     "description": "A collection of my work.",
+    "backLabel": "← Back to Projects",
     "items": [
       {
+        "slug": "medical-imaging",
         "title": "Deep Learning for Medical Imaging",
         "description": "A research project applying convolutional neural networks to diagnose pathologies from medical scans. Achieved 94% accuracy on chest X-ray classification.",
+        "longDescription": "This project developed a deep learning pipeline for automated diagnosis of thoracic pathologies from chest X-rays. Using a custom CNN architecture based on DenseNet, the model was trained on a dataset of over 100,000 labeled radiographs. The system achieved 94% accuracy across 14 pathology classes, with particular strength in detecting pneumonia and pulmonary nodules. A Grad-CAM visualization module was built to highlight regions of interest, making the model's decisions interpretable for radiologists.",
         "tags": ["Python", "TensorFlow", "Medical Imaging"]
       },
       {
+        "slug": "quantum-simulator",
         "title": "Quantum Computing Simulator",
         "description": "A lightweight simulator for quantum circuits built from scratch. Supports up to 16 qubits and implements Grover's and Shor's algorithms.",
+        "longDescription": "A from-scratch quantum circuit simulator written in Rust, designed for educational purposes and small-scale experimentation. The simulator uses state-vector representation and supports all standard single-qubit and two-qubit gates. It implements Grover's search algorithm for unstructured databases and Shor's factoring algorithm for integers up to 15. Performance benchmarks show it can simulate up to 16 qubits in under 2 GB of memory, making it accessible for students learning quantum computing.",
         "tags": ["Rust", "Quantum", "Simulation"]
       },
       {
+        "slug": "nlp-toolkit",
         "title": "NLP Toolkit for Scientific Texts",
         "description": "An open-source toolkit for extracting entities and relationships from scientific papers using transformer-based models.",
+        "longDescription": "An open-source Python toolkit designed to extract structured information from scientific literature. Built on top of HuggingFace Transformers, it provides pre-trained pipelines for named entity recognition (NER), relation extraction, and summarization tailored to scientific domains. The toolkit includes a CLI, a Python API, and a web demo built with Gradio. It has been used to process over 5,000 papers from arXiv, achieving state-of-the-art results on the SciERC benchmark for scientific entity extraction.",
         "tags": ["Python", "NLP", "Transformers"]
       }
     ]

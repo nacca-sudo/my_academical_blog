@@ -12,6 +12,7 @@ export default async function ProjectsPage({
 
   return (
     <ProjectsContent
+      locale={locale}
       title={dict.projects.title}
       description={dict.projects.description}
       items={dict.projects.items}

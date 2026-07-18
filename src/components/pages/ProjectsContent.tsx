@@ -2,25 +2,30 @@
 
 import { Typography, Card, Tag, Row, Col, theme } from "antd";
 import { FolderOpenOutlined } from "@ant-design/icons";
+import { useRouter } from "next/navigation";
 
 const { Title, Paragraph } = Typography;
 
 type ProjectItem = {
+  slug: string;
   title: string;
   description: string;
   tags: string[];
 };
 
 export default function ProjectsContent({
+  locale,
   title,
   description,
   items,
 }: {
+  locale: string;
   title: string;
   description: string;
   items: ProjectItem[];
 }) {
   const { token } = theme.useToken();
+  const router = useRouter();
 
   return (
     <div
@@ -55,6 +60,7 @@ export default function ProjectsContent({
               title={item.title}
               styles={{ body: { padding: token.paddingMD } }}
               hoverable
+              onClick={() => router.push(`/${locale}/projects/${item.slug}`)}
             >
               <Paragraph>{item.description}</Paragraph>
               <div>
