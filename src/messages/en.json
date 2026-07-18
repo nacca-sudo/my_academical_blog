@@ -18,7 +18,24 @@
   },
   "projects": {
     "title": "Projects",
-    "description": "A collection of my work."
+    "description": "A collection of my work.",
+    "items": [
+      {
+        "title": "Deep Learning for Medical Imaging",
+        "description": "A research project applying convolutional neural networks to diagnose pathologies from medical scans. Achieved 94% accuracy on chest X-ray classification.",
+        "tags": ["Python", "TensorFlow", "Medical Imaging"]
+      },
+      {
+        "title": "Quantum Computing Simulator",
+        "description": "A lightweight simulator for quantum circuits built from scratch. Supports up to 16 qubits and implements Grover's and Shor's algorithms.",
+        "tags": ["Rust", "Quantum", "Simulation"]
+      },
+      {
+        "title": "NLP Toolkit for Scientific Texts",
+        "description": "An open-source toolkit for extracting entities and relationships from scientific papers using transformer-based models.",
+        "tags": ["Python", "NLP", "Transformers"]
+      }
+    ]
   },
   "publications": {
     "title": "Publications",

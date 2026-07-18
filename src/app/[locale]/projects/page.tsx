@@ -14,6 +14,7 @@ export default async function ProjectsPage({
     <ProjectsContent
       title={dict.projects.title}
       description={dict.projects.description}
+      items={dict.projects.items}
     />
   );
 }

@@ -18,7 +18,24 @@
   },
   "projects": {
     "title": "Proyectos",
-    "description": "Una colección de mi trabajo."
+    "description": "Una colección de mi trabajo.",
+    "items": [
+      {
+        "title": "Aprendizaje Profundo para Imágenes Médicas",
+        "description": "Proyecto de investigación aplicando redes convolucionales para diagnosticar patologías desde escaneos médicos. Logró un 94 % de precisión en clasificación de radiografías de tórax.",
+        "tags": ["Python", "TensorFlow", "Imágenes Médicas"]
+      },
+      {
+        "title": "Simulador de Computación Cuántica",
+        "description": "Simulador liviano de circuitos cuánticos construido desde cero. Soporta hasta 16 qubits e implementa los algoritmos de Grover y Shor.",
+        "tags": ["Rust", "Cuántico", "Simulación"]
+      },
+      {
+        "title": "Herramienta de NLP para Textos Científicos",
+        "description": "Herramienta de código abierto para extraer entidades y relaciones de artículos científicos usando modelos basados en transformers.",
+        "tags": ["Python", "NLP", "Transformers"]
+      }
+    ]
   },
   "publications": {
     "title": "Publicaciones",
